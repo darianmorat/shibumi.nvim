@@ -2,5 +2,7 @@ gui:
   theme:
     selectedLineBgColor:
       - "#C9C9BF"
+    inactiveViewSelectedLineBgColor:
+      - "#E0E0D5"
     inactiveBorderColor:
       - "#7F7F7F"
