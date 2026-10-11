@@ -85,7 +85,7 @@ M.setup = function(colors)
       Type = { fg = colors.orange },
       Special = { fg = colors.red },
       Delimiter = { fg = colors.fg },
-      Title = { fg = colors.orange },
+      Title = { fg = colors.orange, bold = true },
       PreProc = { fg = colors.pink },
 
       Structure = { fg = colors.orange },
@@ -202,22 +202,13 @@ M.setup = function(colors)
       ["@type.java"] = { fg = colors.aqua },
       ["@keyword.type.java"] = { fg = colors.orange },
 
-      ["@markup.heading.1.markdown"] = { fg = colors.red },
-      ["@markup.heading.2.markdown"] = { fg = colors.red },
-      ["@markup.heading.3.markdown"] = { fg = colors.red },
-      ["@markup.heading.4.markdown"] = { fg = colors.red },
-      ["@markup.heading.5.markdown"] = { fg = colors.red },
-      ["@markup.heading.6.markdown"] = { fg = colors.red },
-
-      ["@markup.heading.html"] = { fg = colors.orange },
       ["@markup.raw.block.markdown"] = { fg = colors.green },
       ["@markup.link.markdown_inline"] = { fg = colors.fg },
       ["@markup.link.label.markdown_inline"] = { fg = colors.blue },
-
-      ["@markup.raw.markdown_inline"] = { fg = colors.orange },
-      ["@markup.quote.markdown"] = { fg = colors.fg },
-      ["@punctuation.special.markdown"] = { fg = colors.punc_char },
+      ["@keyword.directive.markdown"] = { fg = colors.punc_char },
+      ["@markup.quote.markdown"] = { fg = colors.aqua, bg = colors.bg2 },
       ["@label.markdown"] = { fg = colors.grey },
+      ["@punctuation.special.markdown"] = { fg = colors.punc_char },
 
       -- TITLE: LSP & Diagnostics -----------------------------------------------------------------
 
