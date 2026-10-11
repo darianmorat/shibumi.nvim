@@ -2,6 +2,8 @@ local M = {}
 local util = require("shibumi.util")
 
 M.setup = function(colors)
+   local tint = util.tinter(colors.bg0)
+
    local highlights = {
 
       -- TITLE: Editor Interface ------------------------------------------------------------------
@@ -46,15 +48,15 @@ M.setup = function(colors)
 
       Search = {
          fg = colors.bg0,
-         bg = util.darken(colors.orange, 0.8, colors.bg0),
+         bg = tint(colors.orange, 0.8),
       },
       CurSearch = {
          fg = colors.bg0,
-         bg = util.darken(colors.orange, 0.8, colors.bg0),
+         bg = tint(colors.orange, 0.8),
       },
       Substitute = {
          fg = colors.fg_light,
-         bg = util.darken(colors.orange, 0.2, colors.bg0),
+         bg = tint(colors.orange, 0.2),
       },
 
       TabLine = { fg = colors.fg, bg = colors.bg2 },
@@ -230,19 +232,19 @@ M.setup = function(colors)
       DiagnosticOk = { fg = colors.green },
 
       DiagnosticVirtualTextError = {
-         bg = util.darken(colors.red, 0.1, colors.bg0),
+         bg = tint(colors.red, 0.1),
          fg = colors.red,
       },
       DiagnosticVirtualTextWarn = {
-         bg = util.darken(colors.orange, 0.1, colors.bg0),
+         bg = tint(colors.orange, 0.1),
          fg = colors.orange,
       },
       DiagnosticVirtualTextInfo = {
-         bg = util.darken(colors.aqua, 0.1, colors.bg0),
+         bg = tint(colors.aqua, 0.1),
          fg = colors.aqua,
       },
       DiagnosticVirtualTextHint = {
-         bg = util.darken(colors.pink, 0.1, colors.bg0),
+         bg = tint(colors.pink, 0.1),
          fg = colors.pink,
       },
 
