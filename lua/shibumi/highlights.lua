@@ -297,6 +297,7 @@ M.setup = function(colors)
       GitSignsDeleteVirtLn = { fg = colors.red, bg = colors.diff_delete },
 
       -- FZF-lua
+      FzfLuaBorder = { fg = colors.border },
       FzfLuaBufFlagCur = { fg = colors.orange },
       FzfLuaHeaderText = { fg = colors.orange },
       FzfLuaLiveSym = { fg = colors.fg },

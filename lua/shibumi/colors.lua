@@ -11,6 +11,7 @@ M.palettes = {
       line_nr = "#545454",
       cursor_nr = "#B1AFA8",
       punc_char = "#9D9A94",
+      border = "#5F5F5F",
 
       blue = "#579DD4",
       red = "#E16464",
@@ -48,6 +49,7 @@ M.palettes = {
       line_nr = "#8D8A85",
       cursor_nr = "#212121",
       punc_char = "#82807A",
+      border = "#7F7F7F",
 
       blue = "#0F5289",
       red = "#9F0202",
