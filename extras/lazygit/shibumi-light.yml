@@ -2,4 +2,5 @@ gui:
   theme:
     selectedLineBgColor:
       - "#C9C9BF"
-      - bold
+    inactiveBorderColor:
+      - "#7F7F7F"
