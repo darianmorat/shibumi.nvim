@@ -206,7 +206,7 @@ M.setup = function(colors)
       ["@markup.link.markdown_inline"] = { fg = colors.fg },
       ["@markup.link.label.markdown_inline"] = { fg = colors.blue },
       ["@keyword.directive.markdown"] = { fg = colors.punc_char },
-      ["@markup.quote.markdown"] = { fg = colors.aqua, bg = colors.bg2 },
+      ["@markup.quote.markdown"] = { fg = colors.aqua },
       ["@label.markdown"] = { fg = colors.grey },
       ["@punctuation.special.markdown"] = { fg = colors.punc_char },
 
