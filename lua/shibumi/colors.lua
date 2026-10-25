@@ -46,9 +46,9 @@ M.palettes = {
 
       none = "NONE",
 
-      line_nr = "#8D8A85",
+      line_nr = "#8c8a88",
       cursor_nr = "#212121",
-      punc_char = "#82807A",
+      punc_char = "#82817f",
       border = "#7F7F7F",
 
       blue = "#0F5289",
@@ -61,20 +61,20 @@ M.palettes = {
       grey = "#707070",
 
       -- Background
-      bg0 = "#F7F5EA",
-      bg1 = "#EDEDDF",
-      bg2 = "#E5E5DA",
-      bg3 = "#D0D0C6",
-      bg5 = "#CCCCC4",
-      bg4 = "#C5C5BB",
-      bg6 = "#C0C0B6",
-      bg7 = "#B8B8AE",
+      bg0 = "#f4f3f2",
+      bg1 = "#ededea",
+      bg2 = "#e1e1df",
+      bg3 = "#d3d3d1",
+      bg5 = "#d1d1cf",
+      bg4 = "#c9c9c7",
+      bg6 = "#bfbfbd",
+      bg7 = "#b7b7b5",
 
       -- Git diff
-      diff_add = "#DAF6DC",
-      diff_delete = "#F4D3D6",
-      diff_change = "#DFEAFA",
-      diff_text = "#CAD3E0",
+      diff_add = "#c3e2c5",
+      diff_delete = "#edc2c6",
+      diff_change = "#cbd9ed",
+      diff_text = "#9cb4d6",
    },
 }
 
