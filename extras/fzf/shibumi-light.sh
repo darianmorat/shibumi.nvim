@@ -1,10 +1,10 @@
 export FZF_DEFAULT_OPTS=" --ansi
-   --color=scrollbar:#F7F5EA
+   --color=scrollbar:#f4f3f2
    --color=fg:#070707
    --color=fg+:#000000
-   --color=bg:#F7F5EA
-   --color=bg+:#C9C9BF
-   --color=gutter:#C9C9BF
+   --color=bg:#f4f3f2
+   --color=bg+:#c9c9c7
+   --color=gutter:#c9c9c7
    --color=prompt:#0F5289
    --color=marker:#AD4B4B
    --color=pointer:#AD4B4B

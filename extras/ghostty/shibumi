@@ -2,10 +2,8 @@ foreground = #D6CFC4
 background = #1E1E1E
 selection-foreground = #D6CFC4
 selection-background = #303030
-
 cursor-text = #1E1E1E
 cursor-color = #E6E3DE
-split-divider-color = #404040
 
 palette = 0=#4F4F4F
 palette = 1=#E16464

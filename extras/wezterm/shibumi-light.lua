@@ -1,13 +1,11 @@
 return {
    foreground = "#070707",
-   background = "#F7F5EA",
-   selection_fg = "#101010",
-   selection_bg = "#C9C9BF",
-
+   background = "#f4f3f2",
+   selection_fg = "#040404",
+   selection_bg = "#d39a0a",
    cursor_fg = "#EAE7E1",
    cursor_bg = "#404040",
    cursor_border = "#404040",
-   split = "#4F4F4F",
 
    ansi = {
       "#070707", -- black
@@ -20,7 +18,7 @@ return {
       "#070707", -- white
    },
    brights = {
-      "#C9C9BF", -- brightBlack
+      "#c9c9c7", -- brightBlack
       "#9F0202", -- brightRed
       "#006C00", -- brightGreen
       "#AE5F05", -- brightYellow
