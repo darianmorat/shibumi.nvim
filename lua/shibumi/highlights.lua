@@ -8,11 +8,11 @@ M.setup = function(colors)
 
       -- TITLE: Editor Interface ------------------------------------------------------------------
 
-      Normal = { fg = colors.fg, bg = colors.bg0 },
-      NormalNC = { fg = colors.fg, bg = colors.bg0 },
-      NormalFloat = { fg = colors.fg, bg = colors.bg0 },
-      MsgArea = { fg = colors.fg, bg = colors.bg0 },
-      Terminal = { fg = colors.fg, bg = colors.bg0 },
+      Normal = { fg = colors.fg0, bg = colors.bg0 },
+      NormalNC = { fg = colors.fg0, bg = colors.bg0 },
+      NormalFloat = { fg = colors.fg0, bg = colors.bg0 },
+      MsgArea = { fg = colors.fg0, bg = colors.bg0 },
+      Terminal = { fg = colors.fg0, bg = colors.bg0 },
 
       Cursor = { fg = colors.bg0, bg = colors.fg },
       Cursor2 = { fg = colors.bg0, bg = colors.red },
@@ -28,14 +28,14 @@ M.setup = function(colors)
       EndOfBuffer = { fg = colors.bg5 },
 
       WinSeparator = { fg = colors.bg5 },
-      Folded = { fg = colors.fg, bg = colors.bg5 },
+      Folded = { fg = colors.fg0, bg = colors.bg5 },
       FoldColumn = { fg = colors.grey, bg = colors.bg0 },
 
-      MatchParen = { fg = colors.fg_light, bg = colors.bg5 },
-      YankHighlight = { fg = colors.fg_light, bg = colors.bg6 },
+      MatchParen = { fg = colors.fg1, bg = colors.bg5 },
+      YankHighlight = { fg = colors.fg1, bg = colors.bg6 },
 
       QuickFixLine = { fg = colors.blue, underline = true },
-      FloatBorder = { fg = colors.fg, bg = colors.bg0 },
+      FloatBorder = { fg = colors.fg0, bg = colors.bg0 },
       Conceal = { fg = colors.grey, bg = colors.bg5 },
 
       Pmenu = { fg = colors.none, bg = colors.bg5 },
@@ -43,7 +43,7 @@ M.setup = function(colors)
       PmenuSbar = { fg = colors.none, bg = colors.bg7 },
       PmenuThumb = { fg = colors.none, bg = colors.grey },
 
-      StatusLine = { fg = colors.fg, bg = colors.bg2 },
+      StatusLine = { fg = colors.fg0, bg = colors.bg2 },
       StatusLineNC = { fg = colors.grey, bg = colors.bg2 },
 
       Search = {
@@ -59,9 +59,9 @@ M.setup = function(colors)
          bg = tint(colors.orange, 0.2),
       },
 
-      TabLine = { fg = colors.fg, bg = colors.bg2 },
-      TabLineFill = { fg = colors.fg, bg = colors.bg2 },
-      TabLineSel = { fg = colors.fg, bg = colors.grey },
+      TabLine = { fg = colors.fg0, bg = colors.bg2 },
+      TabLineFill = { fg = colors.fg0, bg = colors.bg2 },
+      TabLineSel = { fg = colors.fg0, bg = colors.grey },
 
       SpellBad = { sp = colors.red, undercurl = true },
       SpellCap = { sp = colors.orange, undercurl = true },
@@ -256,7 +256,7 @@ M.setup = function(colors)
       DiffAdd = { fg = colors.none, bg = colors.diff_add },
       DiffDelete = { fg = colors.grey, bg = colors.none },
       DiffChange = { fg = colors.none, bg = colors.diff_change },
-      DiffText = { fg = colors.fg_light, bg = colors.diff_text },
+      DiffText = { fg = colors.fg1, bg = colors.diff_text },
 
       -- TITLE: Plugins Modules -------------------------------------------------------------------
 
@@ -302,11 +302,11 @@ M.setup = function(colors)
       FzfLuaBufFlagAlt = { fg = colors.blue },
 
       -- Blink-cmp
-      BlinkCmpMenu = { fg = colors.fg, bg = colors.bg5 },
-      BlinkCmpMenuBorder = { fg = colors.fg, bg = colors.bg5 },
-      BlinkCmpDoc = { fg = colors.fg, bg = colors.bg4 },
-      BlinkCmpDocBorder = { fg = colors.fg, bg = colors.bg4 },
-      BlinkCmpDocSeparator = { fg = colors.fg, bg = colors.bg4 },
+      BlinkCmpMenu = { fg = colors.fg0, bg = colors.bg5 },
+      BlinkCmpMenuBorder = { fg = colors.fg0, bg = colors.bg5 },
+      BlinkCmpDoc = { fg = colors.fg0, bg = colors.bg4 },
+      BlinkCmpDocBorder = { fg = colors.fg0, bg = colors.bg4 },
+      BlinkCmpDocSeparator = { fg = colors.fg0, bg = colors.bg4 },
       BlinkCmpScrollBarThumb = { bg = colors.grey },
       BlinkCmpScrollBarGutter = { bg = colors.bg6 },
       BlinkCmpLabelMatch = { fg = colors.green },
@@ -315,10 +315,10 @@ M.setup = function(colors)
       IblIndent = { fg = colors.bg4 },
 
       -- Mini
-      MiniPickBorder = { fg = colors.fg, bg = colors.bg0 },
+      MiniPickBorder = { fg = colors.fg0, bg = colors.bg0 },
       MiniPickBorderBusy = { fg = colors.red, bg = colors.bg0 },
-      MiniPickBorderText = { fg = colors.fg, bg = colors.bg0 },
-      MiniPickCursor = { fg = colors.fg, bg = colors.bg0 },
+      MiniPickBorderText = { fg = colors.fg0, bg = colors.bg0 },
+      MiniPickCursor = { fg = colors.fg0, bg = colors.bg0 },
       MiniPickIconDirectory = { bg = colors.bg0 },
       MiniPickIconFile = { bg = colors.bg3 },
       MiniPickHeader = { bg = colors.bg3 },
@@ -326,11 +326,11 @@ M.setup = function(colors)
       MiniPickMatchMarked = { fg = colors.red, bg = colors.bg0 },
       MiniPickMatchRanges = { fg = colors.green, bg = colors.bg0 },
       MiniPickNormal = { bg = colors.bg0 },
-      MiniPickPreviewLine = { fg = colors.fg, bg = colors.bg0 },
-      MiniPickPreviewRegion = { fg = colors.fg, bg = colors.bg0 },
-      MiniPickPrompt = { fg = colors.fg, bg = colors.bg0 },
-      MiniPickPromptCaret = { fg = colors.fg, bg = colors.bg0 },
-      MiniPickPromptPrefix = { fg = colors.fg, bg = colors.bg0 },
+      MiniPickPreviewLine = { fg = colors.fg0, bg = colors.bg0 },
+      MiniPickPreviewRegion = { fg = colors.fg0, bg = colors.bg0 },
+      MiniPickPrompt = { fg = colors.fg0, bg = colors.bg0 },
+      MiniPickPromptCaret = { fg = colors.fg0, bg = colors.bg0 },
+      MiniPickPromptPrefix = { fg = colors.fg0, bg = colors.bg0 },
    }
 
    local lsp_kind_icons_color = {

@@ -3,8 +3,8 @@ local M = {}
 M.palettes = {
    shibumi = {
       -- Base
-      fg = "#d6cfc4",
-      fg_light = "#e6e3de",
+      fg0 = "#d6cfc4",
+      fg1 = "#e6e3de",
 
       none = "none",
 
@@ -41,8 +41,8 @@ M.palettes = {
 
    shibumi_light = {
       -- Base
-      fg = "#070707",
-      fg_light = "#000000",
+      fg0 = "#070707",
+      fg1 = "#000000",
 
       none = "none",
 
