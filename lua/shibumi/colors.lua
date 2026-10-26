@@ -2,7 +2,6 @@ local M = {}
 
 M.palettes = {
    shibumi = {
-      -- Base
       fg0 = "#d6cfc4",
       fg1 = "#e6e3de",
 
@@ -22,7 +21,6 @@ M.palettes = {
       orange = "#d19f66",
       grey = "#575757",
 
-      -- Background
       bg0 = "#1e1e1e",
       bg1 = "#232323",
       bg2 = "#292929",
@@ -32,7 +30,6 @@ M.palettes = {
       bg6 = "#3c3c3c",
       bg7 = "#424242",
 
-      -- Git diff
       diff_add = "#2d3a2a",
       diff_delete = "#3a292b",
       diff_change = "#1c3448",
@@ -40,7 +37,6 @@ M.palettes = {
    },
 
    shibumi_light = {
-      -- Base
       fg0 = "#070707",
       fg1 = "#000000",
 
@@ -60,7 +56,6 @@ M.palettes = {
       orange = "#ae5f05",
       grey = "#707070",
 
-      -- Background
       bg0 = "#f4f3f2",
       bg1 = "#ededea",
       bg2 = "#e1e1df",
@@ -70,7 +65,6 @@ M.palettes = {
       bg6 = "#bfbfbd",
       bg7 = "#b7b7b5",
 
-      -- Git diff
       diff_add = "#c3e2c5",
       diff_delete = "#edc2c6",
       diff_change = "#cbd9ed",
