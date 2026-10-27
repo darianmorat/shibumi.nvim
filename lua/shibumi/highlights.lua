@@ -14,7 +14,7 @@ M.setup = function(colors)
       MsgArea = { fg = colors.fg0, bg = colors.bg0 },
       Terminal = { fg = colors.fg0, bg = colors.bg0 },
 
-      Cursor = { fg = colors.bg0, bg = colors.fg },
+      Cursor = { fg = colors.bg0, bg = colors.fg0 },
       Cursor2 = { fg = colors.bg0, bg = colors.red },
       CursorLine = { bg = colors.none },
       CursorColumn = { bg = colors.bg1 },
@@ -84,7 +84,7 @@ M.setup = function(colors)
       Operator = { fg = colors.blue },
       Type = { fg = colors.orange },
       Special = { fg = colors.red },
-      Delimiter = { fg = colors.fg },
+      Delimiter = { fg = colors.fg0 },
       Title = { fg = colors.orange, bold = true },
       PreProc = { fg = colors.pink },
 
@@ -109,7 +109,7 @@ M.setup = function(colors)
       ErrorMsg = { fg = colors.red },
       InfoMsg = { fg = colors.blue },
       HintMsg = { fg = colors.pink },
-      ModeMsg = { fg = colors.fg },
+      ModeMsg = { fg = colors.fg0 },
       MoreMsg = { fg = colors.green },
       Question = { fg = colors.orange },
 
@@ -123,10 +123,10 @@ M.setup = function(colors)
 
       -- TITLE: Treesitter Captures ---------------------------------------------------------------
 
-      ["@variable"] = { fg = colors.fg },
+      ["@variable"] = { fg = colors.fg0 },
       ["@variable.builtin"] = { fg = colors.orange },
-      ["@parameter"] = { fg = colors.fg },
-      ["@parameter.reference"] = { fg = colors.fg },
+      ["@parameter"] = { fg = colors.fg0 },
+      ["@parameter.reference"] = { fg = colors.fg0 },
 
       ["@function"] = { fg = colors.red },
       ["@function.builtin"] = { fg = colors.red },
@@ -146,7 +146,7 @@ M.setup = function(colors)
       ["@keyword.repeat"] = { fg = colors.pink },
       ["@keyword.operator"] = { fg = colors.pink },
 
-      ["@punctuation.bracket"] = { fg = colors.fg },
+      ["@punctuation.bracket"] = { fg = colors.fg0 },
       ["@punctuation.delimiter"] = { fg = colors.punc_char },
 
       ["@lsp.type.class"] = { fg = colors.aqua },
@@ -170,23 +170,23 @@ M.setup = function(colors)
       ["@property.json"] = { fg = colors.red },
 
       ["@tag.javascript"] = { fg = colors.aqua },
-      ["@type.javascript"] = { fg = colors.fg },
-      ["@constant.javascript"] = { fg = colors.fg },
+      ["@type.javascript"] = { fg = colors.fg0 },
+      ["@constant.javascript"] = { fg = colors.fg0 },
       ["@lsp.type.class.javascript"] = { fg = colors.aqua },
 
-      ["@type.tsx"] = { fg = colors.fg },
-      ["@type.typescript"] = { fg = colors.fg },
-      ["@constant.typescript"] = { fg = colors.fg },
+      ["@type.tsx"] = { fg = colors.fg0 },
+      ["@type.typescript"] = { fg = colors.fg0 },
+      ["@constant.typescript"] = { fg = colors.fg0 },
       ["@keyword.directive.typescript"] = { fg = colors.green },
 
       ["@lsp.typemod.function.defaultLibrary"] = { fg = colors.red },
 
-      ["@lsp.typemod.property.declaration.javascript"] = { fg = colors.fg },
+      ["@lsp.typemod.property.declaration.javascript"] = { fg = colors.fg0 },
       ["@lsp.typemod.property.defaultLibrary.javascript"] = { fg = colors.orange },
       ["@lsp.typemod.variable.defaultLibrary.javascript"] = { fg = colors.orange },
       ["@lsp.typemod.variable.defaultLibrary.javascriptreact"] = { fg = colors.orange },
 
-      ["@lsp.typemod.property.declaration.typescript"] = { fg = colors.fg },
+      ["@lsp.typemod.property.declaration.typescript"] = { fg = colors.fg0 },
       ["@lsp.typemod.property.defaultLibrary.typescript"] = { fg = colors.orange },
       ["@lsp.typemod.variable.defaultLibrary.typescript"] = { fg = colors.orange },
       ["@lsp.typemod.variable.defaultLibrary.typescriptreact"] = { fg = colors.orange },
@@ -194,16 +194,16 @@ M.setup = function(colors)
       ["@punctuation.special.astro"] = { fg = colors.orange },
       ["@type.astro"] = { fg = colors.aqua },
 
-      ["@constructor.lua"] = { fg = colors.fg },
+      ["@constructor.lua"] = { fg = colors.fg0 },
       ["@module.builtin.lua"] = { fg = colors.aqua },
-      ["@property.lua"] = { fg = colors.fg },
+      ["@property.lua"] = { fg = colors.fg0 },
       ["@keyword.luadoc"] = { fg = colors.pink },
 
       ["@type.java"] = { fg = colors.aqua },
       ["@keyword.type.java"] = { fg = colors.orange },
 
       ["@markup.raw.block.markdown"] = { fg = colors.green },
-      ["@markup.link.markdown_inline"] = { fg = colors.fg },
+      ["@markup.link.markdown_inline"] = { fg = colors.fg0 },
       ["@markup.link.label.markdown_inline"] = { fg = colors.blue },
       ["@keyword.directive.markdown"] = { fg = colors.punc_char },
       ["@markup.quote.markdown"] = { fg = colors.aqua },
@@ -293,12 +293,12 @@ M.setup = function(colors)
       FzfLuaBorder = { fg = colors.border },
       FzfLuaBufFlagCur = { fg = colors.orange },
       FzfLuaHeaderText = { fg = colors.orange },
-      FzfLuaLiveSym = { fg = colors.fg },
-      FzfLuaLivePrompt = { fg = colors.fg },
+      FzfLuaLiveSym = { fg = colors.fg0 },
+      FzfLuaLivePrompt = { fg = colors.fg0 },
       FzfLuaPathLineNr = { fg = colors.green },
       FzfLuaPathColNr = { fg = colors.red },
-      FzfLuaBufNr = { fg = colors.fg },
-      FzfLuaHeaderBind = { fg = colors.fg },
+      FzfLuaBufNr = { fg = colors.fg0 },
+      FzfLuaHeaderBind = { fg = colors.fg0 },
       FzfLuaBufFlagAlt = { fg = colors.blue },
 
       -- Blink-cmp
@@ -364,11 +364,11 @@ M.setup = function(colors)
       Snippet = { fg = colors.green },
       String = { fg = colors.green },
       Struct = { fg = colors.pink },
-      Text = { fg = colors.fg },
+      Text = { fg = colors.fg0 },
       TypeParameter = { fg = colors.red },
       Unit = { fg = colors.green },
       Value = { fg = colors.orange },
-      Variable = { fg = colors.fg },
+      Variable = { fg = colors.fg0 },
    }
 
    for kind, color in pairs(lsp_kind_icons_color) do
