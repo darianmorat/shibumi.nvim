@@ -21,8 +21,8 @@ M.palettes = {
       orange = "#d19f66",
       grey = "#575757",
 
-      bg0 = "#1e1e1e",
-      bg1 = "#232323",
+      bg0 = "#1d1d1d",
+      bg1 = "#212121",
       bg2 = "#292929",
       bg3 = "#303030",
       bg4 = "#323232",
@@ -43,7 +43,7 @@ M.palettes = {
       none = "none",
 
       line_nr = "#8c8a88",
-      cursor_nr = "#212121",
+      cursor_nr = "#232323",
       punc_char = "#82817f",
       border = "#7f7f7f",
 

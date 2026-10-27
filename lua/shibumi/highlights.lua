@@ -55,7 +55,7 @@ M.setup = function(colors)
          bg = tint(colors.orange, 0.8),
       },
       Substitute = {
-         fg = colors.fg_light,
+         fg = colors.fg1,
          bg = tint(colors.orange, 0.2),
       },
 
