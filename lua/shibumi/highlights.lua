@@ -46,18 +46,9 @@ M.setup = function(colors)
       StatusLine = { fg = colors.fg0, bg = colors.bg2 },
       StatusLineNC = { fg = colors.grey, bg = colors.bg2 },
 
-      Search = {
-         fg = colors.bg0,
-         bg = tint(colors.orange, 0.8),
-      },
-      CurSearch = {
-         fg = colors.bg0,
-         bg = tint(colors.orange, 0.8),
-      },
-      Substitute = {
-         fg = colors.fg1,
-         bg = tint(colors.orange, 0.2),
-      },
+      Search = { fg = colors.bg0, bg = tint(colors.orange, 0.8) },
+      CurSearch = { fg = colors.bg0, bg = tint(colors.orange, 0.8) },
+      Substitute = { fg = colors.fg1, bg = tint(colors.orange, 0.2) },
 
       TabLine = { fg = colors.fg0, bg = colors.bg2 },
       TabLineFill = { fg = colors.fg0, bg = colors.bg2 },
@@ -222,22 +213,10 @@ M.setup = function(colors)
       DiagnosticHint = { fg = colors.pink },
       DiagnosticOk = { fg = colors.green },
 
-      DiagnosticVirtualTextError = {
-         bg = tint(colors.red, 0.1),
-         fg = colors.red,
-      },
-      DiagnosticVirtualTextWarn = {
-         bg = tint(colors.orange, 0.1),
-         fg = colors.orange,
-      },
-      DiagnosticVirtualTextInfo = {
-         bg = tint(colors.aqua, 0.1),
-         fg = colors.aqua,
-      },
-      DiagnosticVirtualTextHint = {
-         bg = tint(colors.pink, 0.1),
-         fg = colors.pink,
-      },
+      DiagnosticVirtualTextError = { fg = colors.red, bg = tint(colors.red, 0.1) },
+      DiagnosticVirtualTextWarn = { fg = colors.orange, bg = tint(colors.orange, 0.1) },
+      DiagnosticVirtualTextInfo = { fg = colors.aqua, bg = tint(colors.aqua, 0.1) },
+      DiagnosticVirtualTextHint = { fg = colors.pink, bg = tint(colors.pink, 0.1) },
 
       DiagnosticUnderlineError = { sp = colors.red, undercurl = true },
       DiagnosticUnderlineWarn = { sp = colors.orange, undercurl = true },
