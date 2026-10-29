@@ -251,23 +251,6 @@ M.setup = function(colors)
       LazyReasonStart = { fg = colors.orange },
       LazyUrl = { fg = colors.aqua, underline = true },
 
-      -- GitSigns
-      GitSignsAdd = { fg = colors.green },
-      GitSignsAddLn = { fg = colors.green },
-      GitSignsAddNr = { fg = colors.green },
-      GitSignsChange = { fg = colors.blue },
-      GitSignsChangeLn = { fg = colors.blue },
-      GitSignsChangeNr = { fg = colors.blue },
-      GitSignsDelete = { fg = colors.red },
-      GitSignsDeleteLn = { fg = colors.red },
-      GitSignsDeleteNr = { fg = colors.red },
-      GitSignsAddInline = { fg = colors.bg0, bg = colors.green },
-      GitSignsDeleteInline = { fg = colors.bg0, bg = colors.red },
-      GitSignsChangeInline = { fg = colors.bg0, bg = colors.green },
-      GitSignsAddPreview = { fg = colors.green, bg = colors.diff_add },
-      GitSignsDeletePreview = { fg = colors.red, bg = colors.diff_delete },
-      GitSignsDeleteVirtLn = { fg = colors.red, bg = colors.diff_delete },
-
       -- FZF-lua
       FzfLuaBorder = { fg = colors.border },
       FzfLuaBufFlagCur = { fg = colors.orange },
