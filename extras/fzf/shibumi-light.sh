@@ -12,5 +12,5 @@ export FZF_DEFAULT_OPTS=" --ansi
    --color=info:#707070
    --color=hl:#006c00
    --color=hl+:#006c00
-   --color=query:#101010
+   --color=query:#070707
    --color=border:#7f7f7f"
