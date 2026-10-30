@@ -15,33 +15,31 @@ M.setup = function(colors)
       Terminal = { fg = colors.fg0, bg = colors.bg0 },
 
       Cursor = { fg = colors.bg0, bg = colors.fg0 },
-      Cursor2 = { fg = colors.bg0, bg = colors.red },
       CursorLine = { bg = colors.none },
       CursorColumn = { bg = colors.bg1 },
-      Visual = { bg = colors.bg3 },
-      VisualNOS = { fg = colors.none, bg = colors.bg6, underline = true },
+      Visual = { bg = colors.visual },
 
-      LineNr = { fg = colors.line_nr },
-      CursorLineNr = { fg = colors.cursor_nr },
+      LineNr = { fg = colors.grey },
+      CursorLineNr = { fg = colors.fg0 },
       SignColumn = { bg = colors.bg0 },
       ColorColumn = { bg = colors.bg1 },
       EndOfBuffer = { fg = colors.bg5 },
 
-      WinSeparator = { fg = colors.bg5 },
+      WinSeparator = { fg = colors.border },
       Folded = { fg = colors.fg0, bg = colors.bg5 },
       FoldColumn = { fg = colors.grey, bg = colors.bg0 },
 
       MatchParen = { fg = colors.fg1, bg = colors.bg5 },
-      YankHighlight = { fg = colors.fg1, bg = colors.bg6 },
+      YankHighlight = { fg = colors.fg1, bg = colors.bg5 },
 
       QuickFixLine = { fg = colors.blue, underline = true },
       FloatBorder = { fg = colors.fg0, bg = colors.bg0 },
       Conceal = { fg = colors.grey, bg = colors.bg5 },
 
-      Pmenu = { fg = colors.none, bg = colors.bg5 },
-      PmenuSel = { fg = colors.none, bg = colors.bg7 },
-      PmenuSbar = { fg = colors.none, bg = colors.bg7 },
-      PmenuThumb = { fg = colors.none, bg = colors.grey },
+      Pmenu = { bg = colors.menu },
+      PmenuSel = { bg = colors.select },
+      PmenuSbar = { bg = colors.bg5 },
+      PmenuThumb = { bg = colors.grey },
 
       StatusLine = { fg = colors.fg0, bg = colors.bg2 },
       StatusLineNC = { fg = colors.grey, bg = colors.bg2 },
@@ -52,7 +50,7 @@ M.setup = function(colors)
 
       TabLine = { fg = colors.fg0, bg = colors.bg2 },
       TabLineFill = { fg = colors.fg0, bg = colors.bg2 },
-      TabLineSel = { fg = colors.fg0, bg = colors.grey },
+      TabLineSel = { fg = colors.fg0, bg = colors.select },
 
       SpellBad = { sp = colors.red, undercurl = true },
       SpellCap = { sp = colors.orange, undercurl = true },
@@ -96,40 +94,29 @@ M.setup = function(colors)
       Todo = { fg = colors.red },
       Tag = { fg = colors.green },
 
-      WarningMsg = { fg = colors.orange },
-      ErrorMsg = { fg = colors.red },
-      InfoMsg = { fg = colors.blue },
-      HintMsg = { fg = colors.pink },
       ModeMsg = { fg = colors.fg0 },
       MoreMsg = { fg = colors.green },
+      OkMsg = { fg = colors.green },
+      WarningMsg = { fg = colors.orange },
       Question = { fg = colors.orange },
+      ErrorMsg = { fg = colors.red },
 
       Directory = { fg = colors.blue },
       SpecialKey = { fg = colors.grey },
       NonText = { fg = colors.grey },
       Whitespace = { fg = colors.grey },
 
-      FileChangedSign = { fg = colors.orange },
-      FileModifiedSign = { fg = colors.red },
-
       -- TITLE: Treesitter Captures ---------------------------------------------------------------
 
       ["@variable"] = { fg = colors.fg0 },
       ["@variable.builtin"] = { fg = colors.orange },
-      ["@parameter"] = { fg = colors.fg0 },
-      ["@parameter.reference"] = { fg = colors.fg0 },
-
-      ["@function"] = { fg = colors.red },
-      ["@function.builtin"] = { fg = colors.red },
       ["@constructor"] = { fg = colors.aqua },
       ["@function.macro"] = { fg = colors.aqua },
 
-      ["@type"] = { fg = colors.orange },
       ["@type.builtin"] = { fg = colors.orange },
       ["@constant"] = { fg = colors.orange },
       ["@constant.builtin"] = { fg = colors.orange },
 
-      ["@keyword"] = { fg = colors.blue },
       ["@keyword.import"] = { fg = colors.pink },
       ["@keyword.return"] = { fg = colors.pink },
       ["@keyword.conditional"] = { fg = colors.pink },
@@ -137,8 +124,7 @@ M.setup = function(colors)
       ["@keyword.repeat"] = { fg = colors.pink },
       ["@keyword.operator"] = { fg = colors.pink },
 
-      ["@punctuation.bracket"] = { fg = colors.fg0 },
-      ["@punctuation.delimiter"] = { fg = colors.punc_char },
+      ["@punctuation.delimiter"] = { fg = colors.fg2 },
 
       ["@lsp.type.class"] = { fg = colors.aqua },
       ["@lsp.type.namespace"] = { fg = colors.aqua },
@@ -196,16 +182,12 @@ M.setup = function(colors)
       ["@markup.raw.block.markdown"] = { fg = colors.green },
       ["@markup.link.markdown_inline"] = { fg = colors.fg0 },
       ["@markup.link.label.markdown_inline"] = { fg = colors.blue },
-      ["@keyword.directive.markdown"] = { fg = colors.punc_char },
+      ["@keyword.directive.markdown"] = { fg = colors.fg2 },
       ["@markup.quote.markdown"] = { fg = colors.aqua },
       ["@label.markdown"] = { fg = colors.grey },
-      ["@punctuation.special.markdown"] = { fg = colors.punc_char },
+      ["@punctuation.special.markdown"] = { fg = colors.fg2 },
 
       -- TITLE: LSP & Diagnostics -----------------------------------------------------------------
-
-      LspReferenceText = { bg = colors.bg6 },
-      LspReferenceRead = { bg = colors.bg6 },
-      LspReferenceWrite = { bg = colors.bg6 },
 
       DiagnosticError = { fg = colors.red },
       DiagnosticWarn = { fg = colors.orange },
@@ -264,35 +246,17 @@ M.setup = function(colors)
       FzfLuaBufFlagAlt = { fg = colors.blue },
 
       -- Blink-cmp
-      BlinkCmpMenu = { fg = colors.fg0, bg = colors.bg5 },
-      BlinkCmpMenuBorder = { fg = colors.fg0, bg = colors.bg5 },
-      BlinkCmpDoc = { fg = colors.fg0, bg = colors.bg4 },
-      BlinkCmpDocBorder = { fg = colors.fg0, bg = colors.bg4 },
-      BlinkCmpDocSeparator = { fg = colors.fg0, bg = colors.bg4 },
-      BlinkCmpScrollBarThumb = { bg = colors.grey },
-      BlinkCmpScrollBarGutter = { bg = colors.bg6 },
+      BlinkCmpDoc = { fg = colors.fg0, bg = colors.docs },
+      BlinkCmpDocSeparator = { fg = colors.border, bg = colors.docs },
       BlinkCmpLabelMatch = { fg = colors.green },
 
       -- Indent Blankline
-      IblIndent = { fg = colors.bg4 },
+      IblIndent = { fg = colors.visual },
 
-      -- Mini
-      MiniPickBorder = { fg = colors.fg0, bg = colors.bg0 },
-      MiniPickBorderBusy = { fg = colors.red, bg = colors.bg0 },
-      MiniPickBorderText = { fg = colors.fg0, bg = colors.bg0 },
-      MiniPickCursor = { fg = colors.fg0, bg = colors.bg0 },
-      MiniPickIconDirectory = { bg = colors.bg0 },
-      MiniPickIconFile = { bg = colors.bg3 },
-      MiniPickHeader = { bg = colors.bg3 },
-      MiniPickMatchCurrent = { bg = colors.bg3 },
-      MiniPickMatchMarked = { fg = colors.red, bg = colors.bg0 },
-      MiniPickMatchRanges = { fg = colors.green, bg = colors.bg0 },
-      MiniPickNormal = { bg = colors.bg0 },
-      MiniPickPreviewLine = { fg = colors.fg0, bg = colors.bg0 },
-      MiniPickPreviewRegion = { fg = colors.fg0, bg = colors.bg0 },
-      MiniPickPrompt = { fg = colors.fg0, bg = colors.bg0 },
-      MiniPickPromptCaret = { fg = colors.fg0, bg = colors.bg0 },
-      MiniPickPromptPrefix = { fg = colors.fg0, bg = colors.bg0 },
+      -- GitSigns
+      GitSignsAddPreview = { fg = colors.green, bg = colors.diff_add },
+      GitSignsDeletePreview = { fg = colors.red, bg = colors.diff_delete },
+      GitSignsDeleteVirtLn = { fg = colors.red, bg = colors.diff_delete },
    }
 
    local lsp_kind_icons_color = {
@@ -334,7 +298,6 @@ M.setup = function(colors)
    }
 
    for kind, color in pairs(lsp_kind_icons_color) do
-      highlights["CmpItemKind" .. kind] = { fg = color.fg }
       highlights["BlinkCmpKind" .. kind] = { fg = color.fg }
    end
 
