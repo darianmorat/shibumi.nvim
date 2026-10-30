@@ -11,10 +11,11 @@ M.palettes = {
       blue = "#579dd4",
       red = "#e16464",
       green = "#72ba62",
-      pink = "#d159b6",
+      magenta = "#d159b6",
+      cyan = "#00a596",
+      yellow = "#d19f66",
+
       purple = "#9266da",
-      aqua = "#00a596",
-      orange = "#d19f66",
       grey = "#565656",
 
       bg0 = "#1d1d1d",
@@ -44,10 +45,11 @@ M.palettes = {
       blue = "#0f5289",
       red = "#9f0202",
       green = "#006c00",
-      pink = "#910e79",
+      magenta = "#910e79",
+      cyan = "#017f75",
+      yellow = "#ae5f05",
+
       purple = "#5d4a8a",
-      aqua = "#017f75",
-      orange = "#ae5f05",
       grey = "#707070",
 
       bg0 = "#f4f3f2",
