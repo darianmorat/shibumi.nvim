@@ -24,7 +24,7 @@ M.palettes = {
       bg5 = "#373737",
 
       docs = "#303030",
-      menu = "#343434",
+      menu = "#333333",
       select = "#3d3d3d",
       border = "#5f5f5f",
       visual = "#2e2e2e",
