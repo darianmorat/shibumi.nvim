@@ -21,10 +21,10 @@ M.palettes = {
       bg0 = "#1d1d1d",
       bg1 = "#212121",
       bg2 = "#272727",
-      bg5 = "#373737",
+      bg5 = "#383838",
 
       docs = "#303030",
-      menu = "#333333",
+      menu = "#343434",
       select = "#3d3d3d",
       border = "#5f5f5f",
       visual = "#2e2e2e",
