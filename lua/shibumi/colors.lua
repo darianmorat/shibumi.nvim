@@ -4,7 +4,7 @@ M.palettes = {
    shibumi = {
       none = "none",
 
-      fg0 = "#d6cfc4",
+      fg0 = "#d6d2cd",
       fg1 = "#e6e3de",
       fg2 = "#9d9a94",
 

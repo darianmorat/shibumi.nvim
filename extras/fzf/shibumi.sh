@@ -1,6 +1,6 @@
 export FZF_DEFAULT_OPTS=" --ansi
    --color=scrollbar:#1d1d1d
-   --color=fg:#d6cfc4
+   --color=fg:#d6d2cd
    --color=fg+:#e6e3de
    --color=bg:#1d1d1d
    --color=bg+:#303030
@@ -12,5 +12,5 @@ export FZF_DEFAULT_OPTS=" --ansi
    --color=info:#565656
    --color=hl:#72ba62
    --color=hl+:#72ba62
-   --color=query:#d6cfc4
+   --color=query:#d6d2cd
    --color=border:#5f5f5f"

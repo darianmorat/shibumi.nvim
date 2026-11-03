@@ -1,5 +1,5 @@
 return {
-   foreground = "#d6cfc4",
+   foreground = "#d6d2cd",
    background = "#1d1d1d",
    selection_fg = "#0d0d0d",
    selection_bg = "#b8860b",
@@ -15,7 +15,7 @@ return {
       "#579dd4",
       "#d159b6",
       "#00a596",
-      "#d6cfc4",
+      "#d6d2cd",
    },
    brights = {
       "#0d0d0d",
@@ -25,6 +25,6 @@ return {
       "#579dd4",
       "#d159b6",
       "#00a596",
-      "#d6cfc4",
+      "#d6d2cd",
    },
 }

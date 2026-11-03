@@ -1,4 +1,4 @@
-foreground = #d6cfc4
+foreground = #d6d2cd
 background = #1d1d1d
 selection-foreground = #0d0d0d
 selection-background = #b8860b
@@ -12,7 +12,7 @@ palette = 3=#d19f66
 palette = 4=#579dd4
 palette = 5=#d159b6
 palette = 6=#00a596
-palette = 7=#d6cfc4
+palette = 7=#d6d2cd
 
 palette = 8=#0d0d0d
 palette = 9=#e16464
@@ -21,4 +21,4 @@ palette = 11=#d19f66
 palette = 12=#579dd4
 palette = 13=#d159b6
 palette = 14=#00a596
-palette = 15=#d6cfc4
+palette = 15=#d6d2cd
