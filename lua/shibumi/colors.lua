@@ -57,7 +57,7 @@ M.palettes = {
       bg2 = "#e1e1df",
       bg5 = "#bfbfbd",
 
-      docs = "#c9c9c7",
+      docs = "#d8d8d8",
       menu = "#d1d1cf",
       select = "#b7b7b5",
       border = "#7f7f7f",
