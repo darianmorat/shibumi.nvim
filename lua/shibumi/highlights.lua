@@ -87,7 +87,7 @@ M.setup = function(colors)
       Conditional = { fg = colors.magenta },
       Repeat = { fg = colors.magenta },
       Macro = { fg = colors.magenta },
-      Error = { fg = colors.magenta },
+      Error = { fg = colors.red },
       Label = { fg = colors.magenta },
       SpecialChar = { fg = colors.red },
       SpecialComment = { fg = colors.grey },
@@ -191,13 +191,13 @@ M.setup = function(colors)
 
       DiagnosticError = { fg = colors.red },
       DiagnosticWarn = { fg = colors.yellow },
-      DiagnosticInfo = { fg = colors.cyan },
+      DiagnosticInfo = { fg = colors.blue },
       DiagnosticHint = { fg = colors.magenta },
       DiagnosticOk = { fg = colors.green },
 
       DiagnosticVirtualTextError = { fg = colors.red, bg = tint(colors.red, 0.1) },
       DiagnosticVirtualTextWarn = { fg = colors.yellow, bg = tint(colors.yellow, 0.1) },
-      DiagnosticVirtualTextInfo = { fg = colors.cyan, bg = tint(colors.cyan, 0.1) },
+      DiagnosticVirtualTextInfo = { fg = colors.blue, bg = tint(colors.blue, 0.1) },
       DiagnosticVirtualTextHint = { fg = colors.magenta, bg = tint(colors.magenta, 0.1) },
 
       DiagnosticUnderlineError = { sp = colors.red, undercurl = true },
