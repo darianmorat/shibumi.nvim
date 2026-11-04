@@ -15,8 +15,8 @@ M.palettes = {
       cyan = "#00a596",
       yellow = "#d19f66",
 
-      purple = "#9266da",
       grey = "#565656",
+      purple = "#9266da",
 
       bg0 = "#1d1d1d",
       bg1 = "#212121",
@@ -40,7 +40,7 @@ M.palettes = {
 
       fg0 = "#070707",
       fg1 = "#000000",
-      fg2 = "#82817f",
+      fg2 = "#605f5d",
 
       blue = "#0f5289",
       red = "#9f0202",
@@ -49,8 +49,8 @@ M.palettes = {
       cyan = "#017f75",
       yellow = "#ae5f05",
 
-      purple = "#5d4a8a",
       grey = "#707070",
+      purple = "#5d4a8a",
 
       bg0 = "#f4f3f2",
       bg1 = "#ededea",
