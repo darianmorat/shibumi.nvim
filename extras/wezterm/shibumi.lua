@@ -3,12 +3,12 @@ return {
    background = "#1d1d1d",
    selection_fg = "#0d0d0d",
    selection_bg = "#b8860b",
-   cursor_fg = "#0d0d0d",
-   cursor_bg = "#e0dcd5",
-   cursor_border = "#e0dcd5",
+   cursor_fg = "#000000",
+   cursor_bg = "#e5e5e5",
+   cursor_border = "#e5e5e5",
 
    ansi = {
-      "#0d0d0d",
+      "#1d1d1d",
       "#e16464",
       "#72ba62",
       "#d19f66",
@@ -18,7 +18,7 @@ return {
       "#d6d2cd",
    },
    brights = {
-      "#4f4f4f",
+      "#565656",
       "#e16464",
       "#72ba62",
       "#d19f66",

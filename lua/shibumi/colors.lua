@@ -23,7 +23,7 @@ M.palettes = {
       bg2 = "#272727",
       bg5 = "#383838",
 
-      docs = "#303030",
+      docs = "#313131",
       menu = "#343434",
       select = "#3d3d3d",
       border = "#5f5f5f",
@@ -38,30 +38,30 @@ M.palettes = {
    shibumi_light = {
       none = "none",
 
-      fg0 = "#070707",
-      fg1 = "#000000",
+      fg0 = "#0f0e0e",
+      fg1 = "#020202",
       fg2 = "#605f5d",
 
       blue = "#0f5289",
       red = "#9f0202",
       green = "#006c00",
       magenta = "#910e79",
-      cyan = "#017f75",
-      yellow = "#ae5f05",
+      cyan = "#017068",
+      yellow = "#a05703",
 
       grey = "#707070",
-      purple = "#5d4a8a",
+      purple = "#584484",
 
-      bg0 = "#f4f3f2",
-      bg1 = "#ededea",
-      bg2 = "#e1e1df",
-      bg5 = "#bfbfbd",
+      bg0 = "#f4f4f4",
+      bg1 = "#ededed",
+      bg2 = "#e0e0e0",
+      bg5 = "#bfbfbf",
 
       docs = "#d8d8d8",
-      menu = "#d1d1cf",
-      select = "#b7b7b5",
+      menu = "#d3d3d3",
+      select = "#b7b7b7",
       border = "#7f7f7f",
-      visual = "#d3d3d1",
+      visual = "#d5d5d5",
 
       diff_add = "#c3e2c5",
       diff_delete = "#edc2c6",

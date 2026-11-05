@@ -1,8 +1,8 @@
 gui:
   theme:
     selectedLineBgColor:
-      - "#cbcbc8"
+      - "#cccccc"
     inactiveViewSelectedLineBgColor:
-      - "#e0e0de"
+      - "#e0e0e0"
     inactiveBorderColor:
       - "#7f7f7f"
