@@ -14,7 +14,7 @@ M.setup = function(colors)
       MsgArea = { fg = colors.fg0, bg = colors.bg0 },
       Terminal = { fg = colors.fg0, bg = colors.bg0 },
 
-      Cursor = { fg = colors.bg0, bg = colors.fg0 },
+      Cursor = { fg = colors.c_fg, bg = colors.c_bg },
       CursorLine = { bg = colors.none },
       CursorColumn = { bg = colors.bg1 },
       Visual = { bg = colors.visual },

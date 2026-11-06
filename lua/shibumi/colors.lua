@@ -8,6 +8,9 @@ M.palettes = {
       fg1 = "#e6e3de",
       fg2 = "#9d9a94",
 
+      c_fg = "#000000",
+      c_bg = "#e5e5e5",
+
       blue = "#579dd4",
       red = "#e16464",
       green = "#72ba62",
@@ -23,8 +26,8 @@ M.palettes = {
       bg2 = "#272727",
       bg5 = "#383838",
 
-      docs = "#313131",
       menu = "#343434",
+      docs = "#313131",
       select = "#3d3d3d",
       border = "#5f5f5f",
       visual = "#2e2e2e",
@@ -42,6 +45,9 @@ M.palettes = {
       fg1 = "#020202",
       fg2 = "#605f5d",
 
+      c_fg = "#ffffff",
+      c_bg = "#1e1e1e",
+
       blue = "#0f5289",
       red = "#9f0202",
       green = "#006c00",
@@ -57,8 +63,8 @@ M.palettes = {
       bg2 = "#e0e0e0",
       bg5 = "#bfbfbf",
 
-      docs = "#d8d8d8",
       menu = "#d3d3d3",
+      docs = "#d8d8d8",
       select = "#b7b7b7",
       border = "#7f7f7f",
       visual = "#d5d5d5",
