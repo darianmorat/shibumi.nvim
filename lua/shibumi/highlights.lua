@@ -6,7 +6,7 @@ M.setup = function(colors)
 
    local highlights = {
 
-      -- TITLE: Editor Interface ------------------------------------------------------------------
+      -- TITLE: Editor Interface ---------------------------------------------------------
 
       Normal = { fg = colors.fg0, bg = colors.bg0 },
       NormalNC = { fg = colors.fg0, bg = colors.bg0 },
@@ -57,7 +57,7 @@ M.setup = function(colors)
       SpellLocal = { sp = colors.blue, undercurl = true },
       SpellRare = { sp = colors.magenta, undercurl = true },
 
-      -- TITLE: Core Syntax -----------------------------------------------------------------------
+      -- TITLE: Core Syntax --------------------------------------------------------------
 
       Comment = { fg = colors.grey },
       String = { fg = colors.green },
@@ -106,7 +106,7 @@ M.setup = function(colors)
       NonText = { fg = colors.grey },
       Whitespace = { fg = colors.grey },
 
-      -- TITLE: Treesitter Captures ---------------------------------------------------------------
+      -- TITLE: Treesitter Captures ------------------------------------------------------
 
       ["@variable"] = { fg = colors.fg0 },
       ["@variable.builtin"] = { fg = colors.yellow },
@@ -187,7 +187,7 @@ M.setup = function(colors)
       ["@label.markdown"] = { fg = colors.grey },
       ["@punctuation.special.markdown"] = { fg = colors.fg2 },
 
-      -- TITLE: LSP & Diagnostics -----------------------------------------------------------------
+      -- TITLE: LSP & Diagnostics --------------------------------------------------------
 
       DiagnosticError = { fg = colors.red },
       DiagnosticWarn = { fg = colors.yellow },
@@ -219,7 +219,7 @@ M.setup = function(colors)
       DiffChange = { fg = colors.none, bg = colors.diff_change },
       DiffText = { fg = colors.fg1, bg = colors.diff_text },
 
-      -- TITLE: Plugins Modules -------------------------------------------------------------------
+      -- TITLE: Plugins Modules ----------------------------------------------------------
 
       -- Lazy.nvim
       LazyProp = { fg = colors.grey },
